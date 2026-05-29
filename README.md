@@ -33,6 +33,21 @@ Future milestones include:
 *   Implementation of a prototype/testnet.
 *   Ongoing research into AI models and governance mechanisms.
 
+## 📊 Implementation Feasibility & Simulation
+
+A detailed analysis of whether and how the system can be built, together with a
+working proof-of-concept simulation, are included in this repository:
+
+*   [**Implementation Feasibility Analysis**](IMPLEMENTATION_FEASIBILITY.md) — component-by-component assessment, recommended technology stack, phased roadmap, and risk register.
+*   [**Adaptation Loop Simulation**](simulation/) — a self-contained Python simulation demonstrating all four layers (Base Consensus, Telemetry, AI Advisory, Governance) running the parameter-adaptation loop described in the whitepaper.
+
+### Quick start (simulation)
+
+```bash
+# Python 3.8+ required, no external dependencies
+python simulation/simulation.py --epochs 30 --seed 42
+```
+
 ## 🤝 Getting Involved & Feedback
 
 We welcome feedback, questions, and suggestions regarding the concepts and details presented in the whitepaper.
