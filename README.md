@@ -36,16 +36,27 @@ Future milestones include:
 ## 📊 Implementation Feasibility & Simulation
 
 A detailed analysis of whether and how the system can be built, together with a
-working proof-of-concept simulation, are included in this repository:
+working proof-of-concept simulation and an implementation-oriented prototype,
+are included in this repository:
 
 *   [**Implementation Feasibility Analysis**](IMPLEMENTATION_FEASIBILITY.md) — component-by-component assessment, recommended technology stack, phased roadmap, and risk register.
 *   [**Adaptation Loop Simulation**](simulation/) — a self-contained Python simulation demonstrating all four layers (Base Consensus, Telemetry, AI Advisory, Governance) running the parameter-adaptation loop described in the whitepaper.
+*   [**Phase 1 Prototype Scaffold**](prototype/lalachain/) — Cosmos-style module scaffold in Go for deterministic telemetry, rule-based AI proposals, and governance-ratified parameter activation.
 
 ### Quick start (simulation)
 
 ```bash
 # Python 3.8+ required, no external dependencies
 python simulation/simulation.py --epochs 30 --seed 42
+```
+
+### Quick start (phase 1 prototype scaffold)
+
+```bash
+# Go toolchain required
+cd prototype/lalachain
+go run ./cmd/lalachain --epochs 30 --seed 42
+go test ./...
 ```
 
 ## 🤝 Getting Involved & Feedback
