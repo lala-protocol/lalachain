@@ -1,0 +1,103 @@
+version: "3.8"
+
+services:
+  # Validator 1 (seed node)
+  validator1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lala-validator1
+    ports:
+      - "127.0.0.1:26656:26656"
+      - "127.0.0.1:26657:26657"
+      - "127.0.0.1:1317:1317"
+      - "127.0.0.1:9090:9090"
+    volumes:
+      - validator1-data:/home/lala/.lalachaind
+    environment:
+      - MONIKER=validator1
+    networks:
+      - lalanet
+    command: start --minimum-gas-prices=0.025ulala
+
+  # Validator 2
+  validator2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lala-validator2
+    ports:
+      - "127.0.0.1:26756:26656"
+      - "127.0.0.1:26757:26657"
+    volumes:
+      - validator2-data:/home/lala/.lalachaind
+    environment:
+      - MONIKER=validator2
+    networks:
+      - lalanet
+    command: start --minimum-gas-prices=0.025ulala
+
+  # Validator 3
+  validator3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lala-validator3
+    ports:
+      - "127.0.0.1:26856:26656"
+      - "127.0.0.1:26857:26657"
+    volumes:
+      - validator3-data:/home/lala/.lalachaind
+    environment:
+      - MONIKER=validator3
+    networks:
+      - lalanet
+    command: start --minimum-gas-prices=0.025ulala
+
+  # Validator 4
+  validator4:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lala-validator4
+    ports:
+      - "127.0.0.1:26956:26656"
+      - "127.0.0.1:26957:26657"
+    volumes:
+      - validator4-data:/home/lala/.lalachaind
+    environment:
+      - MONIKER=validator4
+    networks:
+      - lalanet
+    command: start --minimum-gas-prices=0.025ulala
+
+  # Faucet API
+  faucet:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lala-faucet
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - faucet-data:/home/lala/.lalachaind
+    environment:
+      - FAUCET_AMOUNT=10000000ulala
+      - FAUCET_RATE_LIMIT=3600
+      - NODE_URL=http://validator1:26657
+    networks:
+      - lalanet
+    entrypoint: ["sh", "-c", "/usr/local/bin/faucet"]
+    depends_on:
+      - validator1
+
+volumes:
+  validator1-data:
+  validator2-data:
+  validator3-data:
+  validator4-data:
+  faucet-data:
+
+networks:
+  lalanet:
+    driver: bridge

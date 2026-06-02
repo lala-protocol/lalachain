@@ -1,0 +1,18 @@
+syntax = "proto3";
+package lala.aiadvisor.v1;
+
+option go_package = "github.com/lala-protocol/whitepaper/prototype/lalachain/x/aiadvisor/types";
+
+import "lala/aiadvisor/v1/aiadvisor.proto";
+
+// Query defines the gRPC querier service for the aiadvisor module.
+service Query {
+  // State returns the current advisor state.
+  rpc State(QueryStateRequest) returns (QueryStateResponse);
+}
+
+message QueryStateRequest {}
+
+message QueryStateResponse {
+  AdvisorState state = 1;
+}

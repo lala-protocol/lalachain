@@ -1,0 +1,22 @@
+syntax = "proto3";
+package lala.telemetry.v1;
+
+option go_package = "github.com/lala-protocol/whitepaper/prototype/lalachain/x/telemetry/types";
+
+// EpochKPIs are computed once per epoch from finalized block data.
+message EpochKPIs {
+  int64  epoch                = 1;
+  string avg_block_time_ms    = 2; // stored as string for decimal precision
+  string block_time_variance  = 3;
+  string avg_utilization      = 4;
+  int64  avg_base_fee         = 5;
+  int32  validator_count      = 6;
+  string total_staked_ratio   = 7;
+  string mempool_size_trend   = 8;
+  int64  slashing_events      = 9;
+}
+
+// GenesisState defines the telemetry module's genesis state.
+message GenesisState {
+  repeated EpochKPIs kpi_history = 1;
+}

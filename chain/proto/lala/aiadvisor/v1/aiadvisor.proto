@@ -1,0 +1,30 @@
+syntax = "proto3";
+package lala.aiadvisor.v1;
+
+option go_package = "github.com/lala-protocol/whitepaper/prototype/lalachain/x/aiadvisor/types";
+
+// AIProposal represents a parameter change proposal originated by the AI advisor.
+message AIProposal {
+  int64  proposal_id        = 1;
+  int64  epoch_submitted    = 2;
+  string parameter          = 3;
+  int64  current_value      = 4;
+  int64  proposed_value     = 5;
+  string rationale          = 6;
+  int64  activation_epoch   = 7;
+  string advisory_key       = 8;
+  string advisory_signature = 9;
+}
+
+// AdvisorState captures the persisted advisor state.
+message AdvisorState {
+  int64 next_proposal_id = 1;
+  int64 low_util_streak  = 2;
+  int64 high_util_streak = 3;
+}
+
+// GenesisState defines the aiadvisor module's genesis state.
+message GenesisState {
+  AdvisorState state         = 1;
+  string       advisory_key  = 2;
+}

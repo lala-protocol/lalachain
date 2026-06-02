@@ -1,0 +1,28 @@
+syntax = "proto3";
+package lala.telemetry.v1;
+
+option go_package = "github.com/lala-protocol/whitepaper/prototype/lalachain/x/telemetry/types";
+
+import "lala/telemetry/v1/telemetry.proto";
+
+// Query defines the gRPC querier service for the telemetry module.
+service Query {
+  // KPIs returns the KPIs for a specific epoch.
+  rpc KPIs(QueryKPIsRequest) returns (QueryKPIsResponse);
+  // AllKPIs returns the full KPI history.
+  rpc AllKPIs(QueryAllKPIsRequest) returns (QueryAllKPIsResponse);
+}
+
+message QueryKPIsRequest {
+  int64 epoch = 1;
+}
+
+message QueryKPIsResponse {
+  EpochKPIs kpis = 1;
+}
+
+message QueryAllKPIsRequest {}
+
+message QueryAllKPIsResponse {
+  repeated EpochKPIs kpis = 1;
+}

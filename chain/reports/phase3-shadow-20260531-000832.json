@@ -1,0 +1,83 @@
+{
+  "source": "parsed log: E:\\side-gigs\\Lala\\whitepaper\\prototype\\lalachain\\reports\\phase2-cosmos-multi-20260531-000832.log",
+  "sample_count": 8,
+  "train_count": 5,
+  "test_count": 3,
+  "model_type": "nearest-centroid-classifier",
+  "shadow_mode": {
+    "agreement_rate": 1.0,
+    "confusion_matrix": {
+      "hold": {
+        "hold": 3,
+        "increase_block_gas_limit": 0,
+        "decrease_block_gas_limit": 0,
+        "increase_base_fee": 0,
+        "decrease_base_fee": 0
+      },
+      "increase_block_gas_limit": {
+        "hold": 0,
+        "increase_block_gas_limit": 0,
+        "decrease_block_gas_limit": 0,
+        "increase_base_fee": 0,
+        "decrease_base_fee": 0
+      },
+      "decrease_block_gas_limit": {
+        "hold": 0,
+        "increase_block_gas_limit": 0,
+        "decrease_block_gas_limit": 0,
+        "increase_base_fee": 0,
+        "decrease_base_fee": 0
+      },
+      "increase_base_fee": {
+        "hold": 0,
+        "increase_block_gas_limit": 0,
+        "decrease_block_gas_limit": 0,
+        "increase_base_fee": 0,
+        "decrease_base_fee": 0
+      },
+      "decrease_base_fee": {
+        "hold": 0,
+        "increase_block_gas_limit": 0,
+        "decrease_block_gas_limit": 0,
+        "increase_base_fee": 0,
+        "decrease_base_fee": 0
+      }
+    },
+    "top_divergences": []
+  },
+  "zkml_evaluation_matrix": [
+    {
+      "library": "EZKL",
+      "focus": "ONNX model proof generation",
+      "integration_readiness": "medium",
+      "expected_effort": "medium-high",
+      "note": "Candidate for small-model inference proofs; benchmark with telemetry-sized inputs."
+    },
+    {
+      "library": "Modulus Labs",
+      "focus": "zkML proving workflows",
+      "integration_readiness": "medium",
+      "expected_effort": "high",
+      "note": "Strong research candidate; assess proving latency versus epoch timing."
+    },
+    {
+      "library": "Giza",
+      "focus": "verifiable ML pipelines",
+      "integration_readiness": "medium",
+      "expected_effort": "high",
+      "note": "Evaluate tooling fit for model governance and reproducibility constraints."
+    }
+  ],
+  "model_update_governance_process": [
+    "Publish model artifact hash, training metadata, and evaluation report.",
+    "Submit model-update proposal through Governance Layer with activation epoch.",
+    "Require quorum and approval thresholds equal to parameter-change governance.",
+    "Run shadow mode for a fixed observation window before activation.",
+    "Activate model only if shadow-mode divergence and stability metrics stay within limits."
+  ],
+  "notes": [
+    "This is a research-track harness for Phase 3 shadow mode.",
+    "Rule-based advisor remains the active decision source.",
+    "Replace synthetic/trace-driven training with real multi-validator telemetry datasets for production readiness."
+  ]
+}

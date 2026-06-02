@@ -1,0 +1,26 @@
+syntax = "proto3";
+package lala.lalagov.v1;
+
+option go_package = "github.com/lala-protocol/whitepaper/prototype/lalachain/x/lalagov/types";
+
+import "lala/lalagov/v1/lalagov.proto";
+
+// Query defines the gRPC querier service for the lalagov module.
+service Query {
+  // Config returns governance configuration.
+  rpc Config(QueryConfigRequest) returns (QueryConfigResponse);
+  // History returns all resolved proposals.
+  rpc History(QueryHistoryRequest) returns (QueryHistoryResponse);
+}
+
+message QueryConfigRequest {}
+
+message QueryConfigResponse {
+  GovConfig config = 1;
+}
+
+message QueryHistoryRequest {}
+
+message QueryHistoryResponse {
+  repeated ResolvedProposal proposals = 1;
+}

@@ -1,0 +1,24 @@
+syntax = "proto3";
+package lala.lalagov.v1;
+
+option go_package = "github.com/lala-protocol/whitepaper/prototype/lalachain/x/lalagov/types";
+
+import "cosmos/msg/v1/msg.proto";
+
+// MsgVote allows validators to vote on an AI-originated proposal.
+message MsgVote {
+  option (cosmos.msg.v1.signer) = "voter";
+
+  int64  proposal_id = 1;
+  string voter       = 2;
+  bool   approve     = 3;
+}
+
+message MsgVoteResponse {}
+
+// Msg defines the lalagov Msg service.
+service Msg {
+  option (cosmos.msg.v1.service) = true;
+
+  rpc Vote(MsgVote) returns (MsgVoteResponse);
+}
