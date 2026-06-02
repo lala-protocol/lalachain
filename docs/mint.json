@@ -1,0 +1,216 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "LalaChain",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#1a1a1a",
+    "light": "#404040",
+    "dark": "#ffffff",
+    "anchors": {
+      "from": "#1a1a1a",
+      "to": "#404040"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/lala-protocol/lalachain"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Run a Validator",
+    "url": "validators/setup-guide"
+  },
+  "tabs": [
+    {
+      "name": "Developer Docs",
+      "url": "developers"
+    },
+    {
+      "name": "API Reference",
+      "url": "developers/rest-api-reference"
+    },
+    {
+      "name": "Validators",
+      "url": "validators"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Whitepaper",
+      "icon": "file-lines",
+      "url": "whitepaper-summary"
+    },
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/lala-protocol/lalachain"
+    },
+    {
+      "name": "FAQ",
+      "icon": "question",
+      "url": "faq"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Introduction",
+      "pages": [
+        "README",
+        "whitepaper-summary"
+      ]
+    },
+    {
+      "group": "Getting Started",
+      "pages": [
+        "getting-started/what-is-blockchain",
+        "getting-started/what-is-a-wallet",
+        "getting-started/what-is-a-transaction",
+        "getting-started/what-is-a-token",
+        "getting-started/what-is-a-validator",
+        "getting-started/what-is-gas",
+        "getting-started/what-is-an-epoch"
+      ]
+    },
+    {
+      "group": "Ecosystem",
+      "pages": [
+        "ecosystem/architecture-overview",
+        "ecosystem/components",
+        "ecosystem/user-roles",
+        "ecosystem/applications",
+        "ecosystem/network-map"
+      ]
+    },
+    {
+      "group": "How It Works",
+      "pages": [
+        "how-it-works/consensus",
+        "how-it-works/transaction-lifecycle",
+        "how-it-works/epoch-system",
+        "how-it-works/ai-advisor",
+        "how-it-works/fee-model",
+        "how-it-works/security-model"
+      ]
+    },
+    {
+      "group": "Tokenomics",
+      "pages": [
+        "tokenomics/lala-token",
+        "tokenomics/supply-and-distribution",
+        "tokenomics/staking-economics",
+        "tokenomics/fee-economics",
+        "tokenomics/governance-power"
+      ]
+    },
+    {
+      "group": "User Guide",
+      "pages": [
+        "user-guide/create-wallet",
+        "user-guide/get-lala-tokens",
+        "user-guide/send-tokens",
+        "user-guide/view-transactions",
+        "user-guide/stake-tokens",
+        "user-guide/vote-on-proposals",
+        "user-guide/use-dashboard"
+      ]
+    },
+    {
+      "group": "Business & Enterprise",
+      "pages": [
+        "business/why-lalachain-for-business",
+        "business/use-cases",
+        "business/integration-guide",
+        "business/cost-analysis",
+        "business/security-compliance",
+        "business/case-studies"
+      ]
+    },
+    {
+      "group": "Developer Docs",
+      "pages": [
+        "developers/quickstart",
+        "developers/architecture-deep-dive",
+        "developers/rest-api-reference",
+        "developers/sdk-guide",
+        "developers/building-modules",
+        "developers/network-endpoints",
+        "developers/error-codes"
+      ]
+    },
+    {
+      "group": "Smart Contracts",
+      "pages": [
+        "smart-contracts/overview",
+        "smart-contracts/setup",
+        "smart-contracts/first-contract",
+        "smart-contracts/testing",
+        "smart-contracts/security-best-practices",
+        "smart-contracts/examples"
+      ]
+    },
+    {
+      "group": "Validators",
+      "pages": [
+        "validators/requirements",
+        "validators/setup-guide",
+        "validators/key-management",
+        "validators/monitoring",
+        "validators/maintenance",
+        "validators/rewards-and-slashing",
+        "validators/ai-proposals-as-validator"
+      ]
+    },
+    {
+      "group": "Governance",
+      "pages": [
+        "governance/overview",
+        "governance/proposal-lifecycle",
+        "governance/voting-guide",
+        "governance/parameter-changes",
+        "governance/ai-advisor-transparency",
+        "governance/governance-philosophy"
+      ]
+    },
+    {
+      "group": "Security",
+      "pages": [
+        "security/wallet-safety",
+        "security/scam-prevention",
+        "security/validator-security",
+        "security/network-security",
+        "security/ai-safety"
+      ]
+    },
+    {
+      "group": "Resources",
+      "pages": [
+        "faq",
+        "troubleshooting",
+        "glossary"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "github": "https://github.com/lala-protocol/lalachain"
+  },
+  "backgroundImage": "/background.png",
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true,
+    "raiseIssue": true
+  },
+  "search": {
+    "prompt": "Search LalaChain docs..."
+  },
+  "api": {
+    "baseUrl": "http://localhost:1317",
+    "playground": {
+      "mode": "simple"
+    }
+  }
+}

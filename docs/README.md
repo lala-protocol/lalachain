@@ -1,3 +1,8 @@
+---
+title: Welcome to LalaChain
+description: The first blockchain that tunes itself — AI-advised adaptive governance for optimal network performance.
+---
+
 # Welcome to LalaChain
 
 **LalaChain is the first blockchain that tunes itself.** It's a Layer 1 proof-of-stake network with a built-in AI advisor that monitors chain performance every epoch and proposes parameter optimizations — all governed by validator vote.
