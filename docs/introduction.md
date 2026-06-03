@@ -82,8 +82,8 @@ The thermostat never changes anything without permission. It just saves everyone
 
 ## What's Next?
 
-- **New to blockchain?** Start with [What is Blockchain?](getting-started/what-is-blockchain.md)
-- **Developer?** Jump to the [Quickstart](developers/quickstart.md)
-- **Want to run a validator?** See [Requirements](validators/requirements.md)
-- **Investor or partner?** Read the [Whitepaper Summary](whitepaper-summary.md)
-- **Curious about the AI?** Read [How the AI Advisor Works](how-it-works/ai-advisor.md)
+- **New to blockchain?** Start with [What is Blockchain?](getting-started/what-is-blockchain)
+- **Developer?** Jump to the [Quickstart](developers/quickstart)
+- **Want to run a validator?** See [Requirements](validators/requirements)
+- **Investor or partner?** Read the [Whitepaper Summary](whitepaper-summary)
+- **Curious about the AI?** Read [How the AI Advisor Works](how-it-works/ai-advisor)

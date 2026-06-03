@@ -102,4 +102,4 @@ Developers can build applications using:
 | Custom SDK modules | Core protocol extensions | Go |
 | IBC applications | Cross-chain interactions | Go/Rust |
 
-See the [Developer Quickstart](../developers/quickstart.md) to begin building.
+See the [Developer Quickstart](../developers/quickstart) to begin building.

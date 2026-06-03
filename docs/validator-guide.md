@@ -28,8 +28,8 @@ LalaChain is a Cosmos SDK v0.50 blockchain with AI-governed parameter optimizati
 ### Option 1: Build from source
 
 ```bash
-git clone https://github.com/lala-protocol/whitepaper.git
-cd whitepaper
+git clone https://github.com/lala-protocol/lalachain.git
+cd lalachain
 make build
 ```
 
@@ -54,7 +54,7 @@ lalachaind init <moniker> --chain-id lalachain-testnet-1
 Download the official genesis file:
 
 ```bash
-curl -o ~/.lalachaind/config/genesis.json https://raw.githubusercontent.com/lala-protocol/whitepaper/main/testnet/genesis.json
+curl -o ~/.lalachaind/config/genesis.json https://raw.githubusercontent.com/lala-protocol/lalachain/main/testnet/genesis.json
 ```
 
 ### 3. Configure persistent peers

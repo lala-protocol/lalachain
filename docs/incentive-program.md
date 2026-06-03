@@ -70,7 +70,7 @@ Validators earn additional rewards for active governance participation:
 ## How to Participate
 
 1. **Join Discord:** [discord.gg/lalachain](https://discord.gg/lalachain)
-2. **Set up validator:** Follow the [Validator Guide](./VALIDATOR_GUIDE.md)
+2. **Set up validator:** Follow the [Validator Guide](validator-guide)
 3. **Register:** Submit your validator address in the `#testnet-validators` channel
 4. **Monitor:** Use the dashboard to track your performance
 5. **Govern:** Vote on all proposals via CLI or dashboard

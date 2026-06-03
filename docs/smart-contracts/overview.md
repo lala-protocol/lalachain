@@ -94,8 +94,8 @@ Smart contracts on LalaChain benefit from AI-managed parameters:
 
 ## Getting Started
 
-1. [Setup](setup.md) — Install Rust and CosmWasm tools
-2. [First Contract](first-contract.md) — Build and deploy "Hello World"
-3. [Testing](testing.md) — Test contracts locally
-4. [Security](security-best-practices.md) — Avoid common vulnerabilities
-5. [Examples](examples.md) — Real-world contract patterns
+1. [Setup](setup) — Install Rust and CosmWasm tools
+2. [First Contract](first-contract) — Build and deploy "Hello World"
+3. [Testing](testing) — Test contracts locally
+4. [Security](security-best-practices) — Avoid common vulnerabilities
+5. [Examples](examples) — Real-world contract patterns

@@ -97,7 +97,7 @@ The transaction is now part of a candidate block with:
 All validators receive the proposed block and:
 1. Re-execute all transactions (**DeliverTx**)
 2. Verify the resulting state hash matches
-3. Pre-vote → Pre-commit → Commit (see [Consensus](consensus.md))
+3. Pre-vote → Pre-commit → Commit (see [Consensus](consensus))
 
 ### 8. Block Committed
 

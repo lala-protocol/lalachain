@@ -98,4 +98,4 @@ This makes LalaChain validators more than block producers — they're active gov
 | Uptime | 95%+ expected for full rewards |
 | Knowledge | Understand blockchain operations + AI proposals |
 
-For full details, see [Validator Requirements](../validators/requirements.md).
+For full details, see [Validator Requirements](../validators/requirements).

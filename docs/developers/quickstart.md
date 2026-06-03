@@ -129,6 +129,6 @@ chain/
 
 ## Next Steps
 
-- [Architecture Deep Dive](architecture-deep-dive.md) — Understand the module system
-- [REST API Reference](rest-api-reference.md) — Complete endpoint documentation
-- [Building Modules](building-modules.md) — Create your own modules
+- [Architecture Deep Dive](architecture-deep-dive) — Understand the module system
+- [REST API Reference](rest-api-reference) — Complete endpoint documentation
+- [Building Modules](building-modules) — Create your own modules

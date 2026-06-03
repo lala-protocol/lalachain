@@ -115,4 +115,4 @@ flowchart LR
 3. **Deploy** — Launch on testnet, then mainnet
 4. **Operate** — Monitor via dashboard, participate in governance if running a validator
 
-See [Integration Guide](integration-guide.md) for technical details.
+See [Integration Guide](integration-guide) for technical details.

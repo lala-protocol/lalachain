@@ -60,7 +60,7 @@
     {
       "group": "Introduction",
       "pages": [
-        "README",
+        "introduction",
         "whitepaper-summary"
       ]
     },
@@ -192,9 +192,9 @@
         "faq",
         "troubleshooting",
         "glossary",
-        "INCENTIVE_PROGRAM",
-        "API_REFERENCE",
-        "VALIDATOR_GUIDE"
+        "incentive-program",
+        "api-reference",
+        "validator-guide"
       ]
     }
   ],

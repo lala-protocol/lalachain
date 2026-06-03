@@ -219,4 +219,4 @@ The key insight is that **most governance failures come from inaction, not bad a
 ---
 
 *For the complete technical specification, see the [full whitepaper](../lala-protocol-whitepaper.tex).*
-*For implementation details, see [Developer Documentation](developers/quickstart.md).*
+*For implementation details, see [Developer Documentation](developers/quickstart).*

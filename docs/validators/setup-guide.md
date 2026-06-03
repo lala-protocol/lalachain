@@ -145,4 +145,4 @@ sudo systemctl start lalachaind
 
 ## Step 9: Configure Monitoring
 
-See [Monitoring](monitoring.md) for Prometheus + Grafana setup.
+See [Monitoring](monitoring) for Prometheus + Grafana setup.
