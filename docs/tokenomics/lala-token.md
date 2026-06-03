@@ -1,3 +1,8 @@
+---
+title: "LALA Token"
+description: "The LALA token � utility, denomination, and role in the protocol."
+---
+
 # LALA Token
 
 **LALA is the native token of LalaChain — used for transaction fees, staking, governance participation, and value transfer.**
@@ -81,7 +86,3 @@ New LALA is minted each block as staking rewards. The inflation rate adjusts bas
 
 ### Slashing
 Misbehaving validators lose staked LALA (slashing). Slashed tokens are partially burned, partially sent to the community pool.
-
----
-
-**Next:** [Supply & Distribution](supply-and-distribution.md)

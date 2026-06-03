@@ -1,3 +1,8 @@
+---
+title: "Smart Contracts: Overview"
+description: "Smart contract capabilities on LalaChain with CosmWasm."
+---
+
 # Smart Contracts: Overview
 
 **LalaChain supports CosmWasm smart contracts — WebAssembly-based contracts written in Rust that run in a sandboxed environment.**
@@ -94,7 +99,3 @@ Smart contracts on LalaChain benefit from AI-managed parameters:
 3. [Testing](testing.md) — Test contracts locally
 4. [Security](security-best-practices.md) — Avoid common vulnerabilities
 5. [Examples](examples.md) — Real-world contract patterns
-
----
-
-**Next:** [Setup](setup.md)

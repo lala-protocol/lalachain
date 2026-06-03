@@ -1,3 +1,8 @@
+﻿---
+title: "Create a Wallet"
+description: "Step-by-step guide to creating your first LalaChain wallet."
+---
+
 # Create a Wallet
 
 **A wallet is your gateway to LalaChain. This guide walks you through creating one.**
@@ -81,11 +86,3 @@ lalachaind keys add my-wallet --recover
 - [ ] Never shared with anyone
 - [ ] Tested recovery process (optional second device)
 - [ ] Understand that transactions are irreversible
-
----
-
-## Next Steps
-
-Once you have a wallet, you'll need tokens to use the network:
-
-**Next:** [Get LALA Tokens](get-lala-tokens.md)

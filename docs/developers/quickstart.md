@@ -1,3 +1,8 @@
+---
+title: "Developer Quickstart"
+description: "Get up and running with LalaChain development in minutes."
+---
+
 # Developer Quickstart
 
 **Get a LalaChain node running locally in 5 minutes and make your first API call.**
@@ -127,7 +132,3 @@ chain/
 - [Architecture Deep Dive](architecture-deep-dive.md) — Understand the module system
 - [REST API Reference](rest-api-reference.md) — Complete endpoint documentation
 - [Building Modules](building-modules.md) — Create your own modules
-
----
-
-**Next:** [Architecture Deep Dive](architecture-deep-dive.md)

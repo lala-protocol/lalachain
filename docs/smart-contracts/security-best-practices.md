@@ -1,3 +1,8 @@
+---
+title: "Security Best Practices"
+description: "Security patterns and common pitfalls in smart contract development."
+---
+
 # Security Best Practices
 
 **Common vulnerabilities in smart contracts and how to prevent them on LalaChain.**
@@ -132,7 +137,3 @@ let share = total.checked_div(participants)?;
 | DoS via gas | Limit iterations, paginate queries |
 | Price manipulation | Use TWAP oracles, not spot prices |
 | Flash loan attacks | Add time delays for sensitive operations |
-
----
-
-**Next:** [Examples](examples.md)

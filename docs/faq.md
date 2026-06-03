@@ -1,3 +1,8 @@
+---
+title: "Frequently Asked Questions"
+description: "Answers to frequently asked questions about LalaChain."
+---
+
 # Frequently Asked Questions
 
 ---
@@ -173,7 +178,3 @@ If 2/3+ of stake colludes, they could theoretically control the network. Economi
 
 ### Is my data private?
 All transactions are public on the blockchain. LalaChain does not provide privacy features by default. Don't put sensitive data in transaction memos.
-
----
-
-**Next:** [Troubleshooting](troubleshooting.md)

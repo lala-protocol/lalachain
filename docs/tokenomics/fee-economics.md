@@ -1,3 +1,8 @@
+---
+title: "Fee Economics"
+description: "How transaction fees flow through the LalaChain economy."
+---
+
 # Fee Economics
 
 **Transaction fees on LalaChain create a sustainable economic cycle: users pay for block space, validators earn income, and token burning creates deflationary pressure.**
@@ -123,7 +128,3 @@ flowchart LR
 
 This creates a **virtuous cycle** where:
 - More users → more fees → more burning → scarcer token → higher value → attracts more validators → better security → attracts more users
-
----
-
-**Next:** [Governance Power](governance-power.md)

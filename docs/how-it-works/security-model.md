@@ -1,3 +1,8 @@
+﻿---
+title: "Security Model"
+description: "Security guarantees from BFT consensus, staking, and slashing."
+---
+
 # Security Model
 
 **LalaChain's security rests on four pillars: cryptographic consensus, economic staking, bounded AI governance, and defense-in-depth parameter limits.**
@@ -173,6 +178,3 @@ LalaChain's security holds under these assumptions:
 - Continuous monitoring for anomalous validator behavior
 - Bug bounty program for responsible disclosure
 
----
-
-**Next:** Continue to [Tokenomics: LALA Token](../tokenomics/lala-token.md)

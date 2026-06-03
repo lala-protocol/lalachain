@@ -1,3 +1,8 @@
+﻿---
+title: "Use the Dashboard"
+description: "Navigate the LalaChain monitoring dashboard."
+---
+
 # Use the Dashboard
 
 **The LalaChain dashboard is a web interface for monitoring chain performance, viewing proposals, and tracking governance activity.**
@@ -82,6 +87,3 @@ NEXT_PUBLIC_RPC_URL=http://localhost:26657
 
 To point at a different node, update these environment variables and restart the dashboard.
 
----
-
-**Next:** Continue to [Business: Why LalaChain](../business/why-lalachain-for-business.md)

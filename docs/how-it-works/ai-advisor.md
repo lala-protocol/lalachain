@@ -1,3 +1,8 @@
+---
+title: "AI Advisor"
+description: "How the deterministic AI Advisor monitors and proposes parameter changes."
+---
+
 # AI Advisor
 
 **The AI Advisor is a deterministic rule engine embedded in LalaChain that monitors network performance and generates parameter-optimization proposals for validator approval.**
@@ -189,7 +194,3 @@ Returns:
   }
 }
 ```
-
----
-
-**Next:** [Fee Model](fee-model.md)

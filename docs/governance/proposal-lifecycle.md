@@ -1,3 +1,8 @@
+---
+title: "Proposal Lifecycle"
+description: "A proposal's journey from creation to activation."
+---
+
 # Proposal Lifecycle
 
 **Every AI-generated proposal follows a strict lifecycle from detection to activation.**
@@ -113,7 +118,3 @@ If a proposal is rejected:
 - Only one proposal per parameter per epoch
 - Only one active proposal per parameter at a time
 - AI cannot override a rejected proposal immediately
-
----
-
-**Next:** [Voting Guide](voting-guide.md)

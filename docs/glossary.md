@@ -1,3 +1,8 @@
+---
+title: "glossary"
+description: "Definitions of key terms used in LalaChain documentation."
+---
+
 # Glossary
 
 **Definitions of key terms used throughout the LalaChain documentation.**
@@ -287,7 +292,3 @@ Software that manages your private keys and allows you to sign transactions on L
 
 ### WebAssembly (Wasm)
 A binary instruction format used by CosmWasm smart contracts. Rust code compiles to Wasm for execution on-chain.
-
----
-
-**Next:** [Whitepaper Summary](whitepaper-summary.md)

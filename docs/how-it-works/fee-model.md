@@ -1,3 +1,8 @@
+---
+title: "Fee Model"
+description: "LalaChain's EIP-1559-style dynamic fee mechanism."
+---
+
 # Fee Model
 
 **LalaChain uses an EIP-1559-inspired dynamic fee mechanism where the base fee adjusts automatically based on block utilization, with AI oversight for long-term optimization.**
@@ -145,7 +150,3 @@ pie title Fee Distribution
 3. **During high fees, wait** — the AI will likely propose a correction within a few epochs
 
 4. **Fees are in ulala** — divide by 1,000,000 to get LALA
-
----
-
-**Next:** [Security Model](security-model.md)

@@ -1,3 +1,8 @@
+﻿---
+title: "Case Studies"
+description: "Example deployments and success stories on LalaChain."
+---
+
 # Case Studies
 
 **Hypothetical scenarios demonstrating LalaChain's AI governance in action.**
@@ -85,6 +90,3 @@ A DeFi protocol on LalaChain experiences a market crash. Liquidation bots flood 
 4. **The system is conservative** — 5-10% changes, not 50-100%
 5. **Human override always available** — Validators can vote NO
 
----
-
-**Next:** Continue to [Developer Quickstart](../developers/quickstart.md)

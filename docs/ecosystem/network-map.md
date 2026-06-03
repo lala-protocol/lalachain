@@ -1,3 +1,8 @@
+﻿---
+title: "Network Map"
+description: "How nodes, validators, and clients connect across the network."
+---
+
 # Network Map
 
 **A visual guide to LalaChain's network topology, data flows, and connectivity.**
@@ -157,6 +162,3 @@ For a healthy network, validators should be geographically distributed:
 
 Block time of ~5 seconds comfortably accommodates global validator distribution.
 
----
-
-**Next:** Continue to [How It Works: Consensus](../how-it-works/consensus.md)

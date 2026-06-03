@@ -1,3 +1,8 @@
+---
+title: "Scam Prevention"
+description: "Common crypto scams and how to avoid them."
+---
+
 # Scam Prevention
 
 **Common crypto scams and how to protect yourself when using LalaChain.**
@@ -82,7 +87,3 @@ If you encounter a scam:
 - Warn others in official channels
 - Document the scam (screenshots) for others' awareness
 - Do NOT engage with the scammer
-
----
-
-**Next:** [Validator Security](validator-security.md)

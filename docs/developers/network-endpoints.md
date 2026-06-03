@@ -1,3 +1,8 @@
+---
+title: "Network Endpoints"
+description: "Available RPC, REST, and gRPC endpoints."
+---
+
 # Network Endpoints
 
 **All available network endpoints for LalaChain nodes.**
@@ -122,7 +127,3 @@ laddr = "tcp://0.0.0.0:26656"
 - **REST (1317):** Rate-limit for public access
 - **gRPC (9090):** Internal applications only
 - **Metrics (26660):** Internal monitoring only
-
----
-
-**Next:** [Error Codes](error-codes.md)

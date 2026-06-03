@@ -1,3 +1,8 @@
+---
+title: "LalaChain Incentivized Testnet Program"
+description: "LalaChain incentivized testnet program and rewards."
+---
+
 # LalaChain Incentivized Testnet Program
 
 ## Overview

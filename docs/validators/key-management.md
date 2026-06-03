@@ -1,3 +1,8 @@
+---
+title: "Key Management"
+description: "Validator key security, KMS, and HSM best practices."
+---
+
 # Key Management
 
 **Securing your validator keys is the most critical operational task. A compromised key means lost funds and potential slashing.**
@@ -97,7 +102,3 @@ The most severe slashing offense. Prevent by:
 - Use `priv_validator_state.json` to track signing state
 - If migrating: stop old node, verify it's dead, then start new node
 - Consider tmkms for hardware-enforced single-signing
-
----
-
-**Next:** [Monitoring](monitoring.md)

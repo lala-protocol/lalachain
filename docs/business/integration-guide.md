@@ -1,3 +1,8 @@
+---
+title: "Integration Guide"
+description: "Technical guide for integrating LalaChain into existing systems."
+---
+
 # Integration Guide
 
 **How to integrate your application with LalaChain using the REST API.**
@@ -95,7 +100,3 @@ console.log(`Base Fee: ${(latest.avg_base_fee / 1e6).toFixed(2)} ulala`);
 - [ ] Error handling for common failure modes
 - [ ] Fee estimation using current base fee
 - [ ] Transaction confirmation polling
-
----
-
-**Next:** [Cost Analysis](cost-analysis.md)

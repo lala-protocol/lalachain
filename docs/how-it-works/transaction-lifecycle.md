@@ -1,3 +1,8 @@
+---
+title: "Transaction Lifecycle"
+description: "A transaction's journey from submission to finality."
+---
+
 # Transaction Lifecycle
 
 **Every transaction on LalaChain follows a deterministic path from creation to permanent inclusion in the blockchain.**
@@ -156,7 +161,3 @@ Required Fee ≥ Gas Used × Current Base Fee
 - Fees are paid in `ulala`
 
 The AI Advisor monitors fee trends and can propose adjustments if fees drift outside healthy bounds.
-
----
-
-**Next:** [Epoch System](epoch-system.md)

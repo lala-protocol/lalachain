@@ -1,3 +1,8 @@
+---
+title: "Validator Security"
+description: "Operational security for LalaChain validator operators."
+---
+
 # Validator Security
 
 **Security practices specific to LalaChain validator operators.**
@@ -99,7 +104,3 @@ Watch for:
 4. **Recovery** — Rotate keys, restore from backup
 5. **Communication** — Inform delegators and community
 6. **Post-mortem** — Document and prevent recurrence
-
----
-
-**Next:** [Network Security](network-security.md)

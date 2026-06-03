@@ -1,3 +1,8 @@
+---
+title: "LalaChain Validator Guide"
+description: "Comprehensive guide for LalaChain validator operators."
+---
+
 # LalaChain Validator Guide
 
 ## Overview

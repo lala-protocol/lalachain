@@ -1,3 +1,8 @@
+---
+title: "What is a Validator?"
+description: "The role of validators in securing the network and producing blocks."
+---
+
 # What is a Validator?
 
 **A validator is a computer that helps run the blockchain by proposing new blocks and voting on whether blocks are valid.**
@@ -94,7 +99,3 @@ This makes LalaChain validators more than block producers — they're active gov
 | Knowledge | Understand blockchain operations + AI proposals |
 
 For full details, see [Validator Requirements](../validators/requirements.md).
-
----
-
-**Next:** [What is Gas?](what-is-gas.md)

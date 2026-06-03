@@ -1,3 +1,8 @@
+﻿---
+title: "Evaluating AI Proposals as a Validator"
+description: "How to evaluate and vote on AI-generated governance proposals."
+---
+
 # Evaluating AI Proposals as a Validator
 
 **LalaChain validators have the unique responsibility of evaluating and voting on AI-generated parameter optimization proposals.**
@@ -99,6 +104,3 @@ If `low_streak` is approaching 3 or `high_streak` approaching 2, a proposal is l
 4. **Track proposal outcomes** — Did past approvals improve things?
 5. **Report anomalies** — If AI seems to be proposing incorrectly, alert the community
 
----
-
-**Next:** Continue to [Governance: Overview](../governance/overview.md)

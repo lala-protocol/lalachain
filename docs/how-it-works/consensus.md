@@ -1,3 +1,8 @@
+---
+title: "consensus"
+description: "CometBFT consensus � how LalaChain achieves instant finality."
+---
+
 # Consensus
 
 **LalaChain uses CometBFT (formerly Tendermint) — a Byzantine Fault Tolerant consensus protocol that provides instant finality and consistent block production.**
@@ -144,7 +149,3 @@ A validator with 30% of total stake will propose roughly 30% of blocks.
 2. **Deterministic** — The AI Advisor's rule engine must produce identical results on every validator. BFT consensus guarantees all nodes process the same blocks.
 3. **Cosmos ecosystem** — IBC compatibility for cross-chain communication.
 4. **Battle-tested** — Used by 50+ production blockchains.
-
----
-
-**Next:** [Transaction Lifecycle](transaction-lifecycle.md)

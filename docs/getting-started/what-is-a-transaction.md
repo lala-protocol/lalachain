@@ -1,3 +1,8 @@
+---
+title: "What is a Transaction?"
+description: "How transactions work on a blockchain � from signing to confirmation."
+---
+
 # What is a Transaction?
 
 **A transaction is a signed instruction that tells the blockchain to do something — usually "move tokens from A to B."**
@@ -89,7 +94,3 @@ On LalaChain, steps 4–7 happen in roughly **5 seconds** (one block time).
 - **Transactions are irreversible.** Double-check addresses before sending.
 - **Fees are non-refundable.** Even if a transaction fails (e.g., insufficient balance), you still pay the gas fee.
 - **Each account has a sequence number** that prevents replay attacks — you can't submit the same transaction twice.
-
----
-
-**Next:** [What is a Token?](what-is-a-token.md)

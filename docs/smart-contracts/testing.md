@@ -1,3 +1,8 @@
+---
+title: "Testing Smart Contracts"
+description: "Testing strategies for CosmWasm smart contracts."
+---
+
 # Testing Smart Contracts
 
 **How to test CosmWasm contracts locally before deploying to LalaChain.**
@@ -125,7 +130,3 @@ cargo test proper_initialization
 # With output
 cargo test -- --nocapture
 ```
-
----
-
-**Next:** [Security Best Practices](security-best-practices.md)

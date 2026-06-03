@@ -1,3 +1,8 @@
+---
+title: "What is Blockchain?"
+description: "Learn what blockchain technology is and why it matters � explained simply."
+---
+
 # What is Blockchain?
 
 **A blockchain is a shared digital record book that nobody can secretly change.**
@@ -61,7 +66,3 @@ What makes LalaChain special isn't the blockchain itself — it's what runs *on 
 ## 💡 Key Takeaway
 
 A blockchain is just a database that's shared, permanent, and doesn't need anyone in charge to manage it. LalaChain is one such database — with the added superpower of self-optimization.
-
----
-
-**Next:** [What is a Wallet?](what-is-a-wallet.md)

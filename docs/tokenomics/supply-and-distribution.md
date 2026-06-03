@@ -1,3 +1,8 @@
+---
+title: "Supply & Distribution"
+description: "Token supply, initial distribution, and inflation model."
+---
+
 # Supply & Distribution
 
 **LalaChain launches with 1 billion LALA tokens distributed across ecosystem participants, with ongoing inflation for staking rewards.**
@@ -109,7 +114,3 @@ Staked ≈ 67% of total supply
 - **Broad public distribution** — Airdrops + public sale to maximize decentralization
 - **Delegation diversity** — UI warns users about over-concentrated validators
 - **Quadratic considerations** — Future governance may weight votes sublinearly
-
----
-
-**Next:** [Staking Economics](staking-economics.md)

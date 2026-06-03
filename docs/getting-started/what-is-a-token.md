@@ -1,3 +1,8 @@
+---
+title: "What is a Token?"
+description: "What tokens are, how they differ from coins, and what LALA is."
+---
+
 # What is a Token?
 
 **A token is a digital unit of value that lives on a blockchain. On LalaChain, the native token is called LALA.**
@@ -93,7 +98,3 @@ Tokens are **burned** (destroyed) when:
 You don't need anyone's permission to own LALA tokens. You just need a wallet (an address + private key). The blockchain records your balance, and your private key proves you can spend it.
 
 Nobody can freeze your tokens, reverse your transactions, or prevent you from transferring — as long as you control your private key.
-
----
-
-**Next:** [What is a Validator?](what-is-a-validator.md)

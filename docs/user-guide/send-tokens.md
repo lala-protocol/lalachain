@@ -1,3 +1,8 @@
+---
+title: "Send Tokens"
+description: "Send LALA tokens to another address using CLI or dashboard."
+---
+
 # Send Tokens
 
 **Transfer LALA tokens to any address on LalaChain.**
@@ -70,7 +75,3 @@ curl -X POST http://localhost:1317/cosmos/tx/v1beta1/txs \
 | `account sequence mismatch` | Nonce out of sync | Wait for pending tx or query correct sequence |
 | `invalid address` | Wrong format | Ensure address starts with `lala1` |
 | `out of gas` | Gas limit too low | Increase `--gas` flag |
-
----
-
-**Next:** [View Transactions](view-transactions.md)

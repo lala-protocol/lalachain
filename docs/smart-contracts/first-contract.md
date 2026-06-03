@@ -1,3 +1,8 @@
+---
+title: "First Contract"
+description: "Write and deploy your first smart contract on LalaChain."
+---
+
 # First Contract
 
 **Build a simple counter contract to learn CosmWasm fundamentals.**
@@ -152,7 +157,3 @@ lalachaind tx wasm execute <contract-addr> '{"reset": {"count": 42}}' \
 3. **QueryMsg** — Read-only operations (free)
 4. **State** — Persistent storage using `cw_storage_plus`
 5. **Entry points** — `instantiate`, `execute`, `query`
-
----
-
-**Next:** [Testing](testing.md)

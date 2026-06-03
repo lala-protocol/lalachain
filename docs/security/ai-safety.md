@@ -1,3 +1,8 @@
+﻿---
+title: "AI Safety"
+description: "Safety guarantees ensuring the AI Advisor cannot harm the network."
+---
+
 # AI Safety
 
 **How LalaChain ensures the AI Advisor cannot harm the network, even in adversarial scenarios.**
@@ -103,6 +108,3 @@ If the AI is determined to be malfunctioning:
 3. **Software upgrade** to fix or disable the rule engine (requires coordinated upgrade)
 4. **Chain halt** as absolute last resort (1/3+ validators stop)
 
----
-
-**Next:** Continue to [FAQ](../faq.md)

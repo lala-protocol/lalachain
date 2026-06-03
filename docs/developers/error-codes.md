@@ -1,3 +1,8 @@
+﻿---
+title: "Error Codes"
+description: "Error codes, meanings, and resolution steps."
+---
+
 # Error Codes
 
 **Common error codes returned by LalaChain and how to resolve them.**
@@ -111,6 +116,3 @@ lalachaind tx bank send ... --gas 300000
 lalachaind tx bank send ... --dry-run
 ```
 
----
-
-**Next:** Continue to [Smart Contracts: Overview](../smart-contracts/overview.md)

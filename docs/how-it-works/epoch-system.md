@@ -1,3 +1,8 @@
+---
+title: "Epoch System"
+description: "The epoch system that drives LalaChain's adaptive governance loop."
+---
+
 # Epoch System
 
 **The epoch system is LalaChain's heartbeat for governance — a 10-block window that triggers performance measurement, AI analysis, and proposal lifecycle events.**
@@ -160,7 +165,3 @@ The epoch length trades off between:
 - Long enough to distinguish trends from noise
 - Gives validators reasonable time to cast informed votes
 - Produces human-readable metrics (not too granular, not too coarse)
-
----
-
-**Next:** [AI Advisor](ai-advisor.md)

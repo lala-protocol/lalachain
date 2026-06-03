@@ -1,3 +1,8 @@
+---
+title: "Security & Compliance"
+description: "Security certifications, compliance, and enterprise requirements."
+---
+
 # Security & Compliance
 
 **LalaChain's security architecture and compliance considerations for enterprise deployment.**
@@ -72,7 +77,3 @@ If a validator's keys are compromised:
 2. Community alerts other validators
 3. Compromised validator is jailed
 4. Delegators can redelegate immediately
-
----
-
-**Next:** [Case Studies](case-studies.md)

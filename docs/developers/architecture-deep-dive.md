@@ -1,3 +1,8 @@
+---
+title: "Architecture Deep Dive"
+description: "Deep dive into LalaChain's module architecture and data flow."
+---
+
 # Architecture Deep Dive
 
 **A detailed look at LalaChain's internal architecture for developers building on or contributing to the protocol.**
@@ -224,7 +229,3 @@ go test ./x/telemetry/
 | Epoch-based processing | Reduces noise, batches governance |
 | Deterministic rules | Consensus-safe, auditable |
 | Hard parameter bounds | Safety against runaway AI proposals |
-
----
-
-**Next:** [REST API Reference](rest-api-reference.md)

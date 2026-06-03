@@ -1,3 +1,8 @@
+﻿---
+title: "What is an Epoch?"
+description: "How LalaChain divides time into epochs for AI-driven governance."
+---
+
 # What is an Epoch?
 
 **An epoch is a fixed group of blocks (10 on LalaChain) that the chain uses as a measurement window for performance analysis.**
@@ -103,6 +108,3 @@ The epoch length itself is a governance parameter — validators could vote to c
 | Voting period | ~50 seconds (1 epoch) | Time for validators to vote |
 | Activation delay | ~100 seconds (2 epochs) | Safety buffer before changes apply |
 
----
-
-**Next:** Continue to [Ecosystem Architecture](../ecosystem/architecture-overview.md) to see how all the pieces fit together.

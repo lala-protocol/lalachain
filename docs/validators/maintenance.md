@@ -1,3 +1,8 @@
+---
+title: "Validator Maintenance"
+description: "Upgrades, backups, and routine validator maintenance."
+---
+
 # Validator Maintenance
 
 **Ongoing operational tasks to keep your validator healthy and performant.**
@@ -108,7 +113,3 @@ lalachaind query staking validator $(lalachaind keys show validator --bech val -
 3. If key is compromised: rotate immediately
 4. Contact community for guidance
 5. You will be tombstoned (permanent jail)
-
----
-
-**Next:** [Rewards & Slashing](rewards-and-slashing.md)

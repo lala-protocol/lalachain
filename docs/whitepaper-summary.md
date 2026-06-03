@@ -1,3 +1,8 @@
+---
+title: "LalaChain Protocol — Whitepaper Summary"
+description: "Executive summary of the LalaChain protocol whitepaper."
+---
+
 # LalaChain Protocol — Whitepaper Summary
 
 **An Executive Summary of the LalaChain Protocol Design**

@@ -1,3 +1,8 @@
+---
+title: "LalaChain API Reference"
+description: "Complete API reference for all LalaChain REST endpoints."
+---
+
 # LalaChain API Reference
 
 ## REST API (LCD)

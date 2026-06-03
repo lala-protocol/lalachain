@@ -1,3 +1,8 @@
+---
+title: "Staking Economics"
+description: "Staking rewards, delegation, and validator economics."
+---
+
 # Staking Economics
 
 **Staking LALA tokens secures the network and earns rewards. Here's how the economics work for validators and delegators.**
@@ -155,7 +160,3 @@ Delegators share the risk with their validator:
 - Redelegate away from underperforming validators
 - Seek lowest commission with acceptable uptime
 - Compound rewards daily
-
----
-
-**Next:** [Fee Economics](fee-economics.md)

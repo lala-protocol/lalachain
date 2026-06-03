@@ -1,3 +1,8 @@
+---
+title: "Building Modules"
+description: "How to build custom Cosmos SDK modules for LalaChain."
+---
+
 # Building Modules
 
 **How to create custom Cosmos SDK modules for LalaChain.**
@@ -147,7 +152,3 @@ func TestIncrement(t *testing.T) {
     }
 }
 ```
-
----
-
-**Next:** [Network Endpoints](network-endpoints.md)

@@ -1,3 +1,8 @@
+---
+title: "components"
+description: "The core components that make up the LalaChain network."
+---
+
 # Components
 
 **LalaChain consists of five major components that work together to deliver AI-governed blockchain infrastructure.**
@@ -188,7 +193,3 @@ lalachaind tx send       # Send tokens
 lalachaind tx staking delegate    # Stake tokens
 lalachaind query bank balances    # Check balance
 ```
-
----
-
-**Next:** [User Roles](user-roles.md)

@@ -1,3 +1,8 @@
+---
+title: "Why LalaChain for Business"
+description: "Why enterprises should build on a self-optimizing blockchain."
+---
+
 # Why LalaChain for Business
 
 **LalaChain offers enterprises a blockchain that manages itself — reducing operational overhead, ensuring predictable costs, and adapting to demand without manual intervention.**
@@ -111,7 +116,3 @@ flowchart LR
 4. **Operate** — Monitor via dashboard, participate in governance if running a validator
 
 See [Integration Guide](integration-guide.md) for technical details.
-
----
-
-**Next:** [Use Cases](use-cases.md)

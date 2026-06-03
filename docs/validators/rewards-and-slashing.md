@@ -1,3 +1,8 @@
+---
+title: "Rewards & Slashing"
+description: "How validator rewards are calculated and slashing conditions."
+---
+
 # Rewards & Slashing
 
 **How validators earn rewards and what happens when they misbehave.**
@@ -96,7 +101,3 @@ lalachaind tx distribution withdraw-rewards $(lalachaind keys show validator --b
 ```
 
 The `--commission` flag also withdraws accumulated commission.
-
----
-
-**Next:** [Evaluating AI Proposals](ai-proposals-as-validator.md)

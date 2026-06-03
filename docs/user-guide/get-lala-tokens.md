@@ -1,3 +1,8 @@
+---
+title: "Get LALA Tokens"
+description: "How to acquire LALA tokens on testnet and mainnet."
+---
+
 # Get LALA Tokens
 
 **You need LALA tokens to pay transaction fees, stake, and participate in governance. Here's how to get them.**
@@ -87,7 +92,3 @@ Remember: `1000000000 ulala = 1000 LALA`
 | 1,000,000,000 ulala | 1,000 LALA |
 
 The CLI and API always work in **ulala**. User interfaces typically display in **LALA**.
-
----
-
-**Next:** [Send Tokens](send-tokens.md)

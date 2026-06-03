@@ -1,3 +1,8 @@
+---
+title: "Smart Contract Setup"
+description: "Set up your CosmWasm development environment."
+---
+
 # Smart Contract Setup
 
 **Install the tools needed to write, compile, and deploy CosmWasm smart contracts on LalaChain.**
@@ -138,7 +143,3 @@ lalachaind query wasm contract <contract-address>
 # Query contract state
 lalachaind query wasm contract-state smart <contract-address> '{"get_count": {}}'
 ```
-
----
-
-**Next:** [First Contract](first-contract.md)

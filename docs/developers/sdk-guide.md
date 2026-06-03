@@ -1,3 +1,8 @@
+---
+title: "SDK Guide"
+description: "Using the LalaChain SDK to build applications."
+---
+
 # SDK Guide
 
 **Libraries and tools for building applications on LalaChain.**
@@ -146,7 +151,3 @@ lalachaind query staking validators --output json | jq '.validators[].tokens'
 | Python | cosmpy | Scripts, data analysis |
 | Rust | cosmrs | Smart contracts, performance-critical |
 | CLI | lalachaind | DevOps, automation |
-
----
-
-**Next:** [Building Modules](building-modules.md)

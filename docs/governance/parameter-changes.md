@@ -1,3 +1,8 @@
+---
+title: "Parameter Changes"
+description: "Which parameters can be changed and their allowed ranges."
+---
+
 # Parameter Changes
 
 **The specific parameters that AI governance can modify, their ranges, and their effects.**
@@ -93,7 +98,3 @@ View all past parameter changes:
 ```bash
 curl http://localhost:1317/lala/lalagov/v1/history
 ```
-
----
-
-**Next:** [AI Transparency](ai-advisor-transparency.md)

@@ -191,14 +191,16 @@
       "pages": [
         "faq",
         "troubleshooting",
-        "glossary"
+        "glossary",
+        "INCENTIVE_PROGRAM",
+        "API_REFERENCE",
+        "VALIDATOR_GUIDE"
       ]
     }
   ],
   "footerSocials": {
     "github": "https://github.com/lala-protocol/lalachain"
   },
-  "backgroundImage": "/background.png",
   "feedback": {
     "thumbsRating": true,
     "suggestEdit": true,

@@ -1,3 +1,8 @@
+---
+title: "View Transactions"
+description: "Check transaction status and history on LalaChain."
+---
+
 # View Transactions
 
 **Query and track your transactions on LalaChain.**
@@ -64,7 +69,3 @@ The LalaChain dashboard at `http://localhost:3000` provides:
 - Block explorer with transaction details
 - Account balance history
 - Network activity charts
-
----
-
-**Next:** [Stake Tokens](stake-tokens.md)

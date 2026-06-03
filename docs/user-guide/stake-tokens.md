@@ -1,3 +1,8 @@
+---
+title: "Stake Tokens"
+description: "Delegate your LALA to validators and earn staking rewards."
+---
+
 # Stake Tokens
 
 **Staking your LALA tokens helps secure the network and earns you rewards.**
@@ -101,7 +106,3 @@ lalachaind tx staking unbond <validator-address> 200000000ulala \
 | 100,000 LALA | 21,000 LALA | 57.5 LALA |
 
 *Actual returns vary based on network inflation, staking ratio, and validator commission.*
-
----
-
-**Next:** [Vote on Proposals](vote-on-proposals.md)

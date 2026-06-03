@@ -1,3 +1,8 @@
+---
+title: "AI Advisor Transparency"
+description: "How AI Advisor decisions are made transparent and auditable."
+---
+
 # AI Advisor Transparency
 
 **Every AI decision on LalaChain is fully explainable, verifiable, and auditable.**
@@ -120,7 +125,3 @@ curl http://localhost:1317/lala/aiadvisor/v1/state
 | ChatGPT-style LLM | Low (black box) | No | No |
 | ML-based optimization | Medium (feature importance) | No | Configurable |
 | **LalaChain rule engine** | **High (fully explainable)** | **Yes** | **Yes** |
-
----
-
-**Next:** [Governance Philosophy](governance-philosophy.md)

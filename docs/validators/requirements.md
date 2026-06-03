@@ -1,3 +1,8 @@
+---
+title: "Validator Requirements"
+description: "Hardware, software, and network requirements for running a validator."
+---
+
 # Validator Requirements
 
 **Hardware, software, and operational requirements for running a LalaChain validator.**
@@ -91,7 +96,3 @@ Unlike other chains, LalaChain validators must also:
 | Cloud (basic) | $200-400 | New validators |
 | Cloud (production) | $500-1,000 | Established validators |
 | Bare metal + colo | $300-600 | Large operations |
-
----
-
-**Next:** [Setup Guide](setup-guide.md)

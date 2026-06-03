@@ -1,3 +1,8 @@
+---
+title: "REST API Reference"
+description: "Complete REST API reference for LalaChain endpoints."
+---
+
 # REST API Reference
 
 **Complete documentation for LalaChain's REST API endpoints.**
@@ -204,7 +209,3 @@ Default node configuration has no rate limiting. For production:
 - Use a reverse proxy (nginx, Caddy) with rate limiting
 - Limit by IP: 100 requests/second recommended
 - Limit by endpoint: Heavy queries (tx search) should be stricter
-
----
-
-**Next:** [SDK Guide](sdk-guide.md)

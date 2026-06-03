@@ -1,3 +1,8 @@
+﻿---
+title: "Governance Power"
+description: "How staked tokens translate to voting power in governance."
+---
+
 # Governance Power
 
 **On LalaChain, staked tokens translate directly into governance power — the ability to approve or reject AI-proposed parameter changes.**
@@ -127,6 +132,3 @@ If one validator accumulates >34% of stake, they can block any proposal (prevent
 
 LalaChain's high governance frequency means validators must be actively engaged — this isn't a "vote once a month" chain.
 
----
-
-**Next:** Continue to [User Guide: Create a Wallet](../user-guide/create-wallet.md)

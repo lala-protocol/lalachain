@@ -1,3 +1,8 @@
+---
+title: "Governance Overview"
+description: "LalaChain's governance system � human oversight meets AI intelligence."
+---
+
 # Governance Overview
 
 **LalaChain's governance combines AI-driven proposals with human validator voting, enabling rapid parameter optimization while maintaining decentralized control.**
@@ -80,7 +85,3 @@ Every governance action is recorded on-chain:
 - Activation timestamp
 
 Query via: `GET /lala/lalagov/v1/history`
-
----
-
-**Next:** [Proposal Lifecycle](proposal-lifecycle.md)

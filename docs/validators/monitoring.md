@@ -1,3 +1,8 @@
+---
+title: "Validator Monitoring"
+description: "Monitor your validator's performance, uptime, and health."
+---
+
 # Validator Monitoring
 
 **Set up monitoring to ensure high uptime and catch issues before they cause slashing.**
@@ -110,7 +115,3 @@ Watch for these log patterns:
 | `connection refused` | Peer connectivity issue | Check firewall |
 | `out of memory` | OOM kill imminent | Increase RAM |
 | `WAL replay` | Node crashed, recovering | Monitor recovery |
-
----
-
-**Next:** [Maintenance](maintenance.md)

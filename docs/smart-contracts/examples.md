@@ -1,3 +1,8 @@
+﻿---
+title: "Smart Contract Examples"
+description: "Example smart contracts with full source code."
+---
+
 # Smart Contract Examples
 
 **Common patterns and templates for building on LalaChain.**
@@ -145,6 +150,3 @@ pub fn execute_vote(
 | **Fungible (CW20)** | Custom tokens | ERC20-equivalent |
 | **Staking** | Yield farming | Deposit, track shares, withdraw |
 
----
-
-**Next:** Continue to [Validators: Requirements](../validators/requirements.md)

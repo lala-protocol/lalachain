@@ -1,3 +1,8 @@
+---
+title: "troubleshooting"
+description: "Solutions to common issues when using LalaChain."
+---
+
 # Troubleshooting
 
 **Solutions to common issues when using LalaChain.**
@@ -237,7 +242,3 @@
 ### Large database size
 - Enable pruning
 - Use `lalachaind tendermint unsafe-reset-all` and state sync to rebuild
-
----
-
-**Next:** [Glossary](glossary.md)

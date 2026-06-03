@@ -1,3 +1,8 @@
+---
+title: "Architecture Overview"
+description: "High-level view of LalaChain's layered architecture."
+---
+
 # Architecture Overview
 
 **LalaChain is a modular Layer 1 blockchain built on Cosmos SDK with three custom modules that enable AI-driven governance.**
@@ -173,7 +178,3 @@ Plus standard Cosmos SDK endpoints for accounts, balances, staking, etc.
 | Hard parameter bounds | Safety rails — AI can't propose dangerous values |
 | Validator voting | Human oversight maintained; AI is advisory only |
 | Cosmos SDK framework | Battle-tested, modular, IBC-compatible |
-
----
-
-**Next:** [Components](components.md)

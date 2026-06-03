@@ -1,3 +1,8 @@
+﻿---
+title: "Governance Philosophy"
+description: "The design philosophy behind LalaChain's governance model."
+---
+
 # Governance Philosophy
 
 **LalaChain's governance is built on the belief that data-driven proposals with human oversight produce better outcomes than either pure automation or pure politics.**
@@ -89,6 +94,3 @@ We acknowledge these are unresolved and welcome community input:
 - What happens if validators consistently reject AI proposals? (Trust in AI vs. human judgment)
 - How do we prevent governance fatigue? (Frequent proposals vs. validator attention)
 
----
-
-**Next:** Continue to [Security: Wallet Safety](../security/wallet-safety.md)

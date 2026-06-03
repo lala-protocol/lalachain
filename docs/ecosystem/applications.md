@@ -1,3 +1,8 @@
+---
+title: "applications"
+description: "Applications and use cases built on LalaChain."
+---
+
 # Applications
 
 **LalaChain supports a range of applications from DeFi to supply chain, all benefiting from self-optimizing network parameters.**
@@ -98,7 +103,3 @@ Developers can build applications using:
 | IBC applications | Cross-chain interactions | Go/Rust |
 
 See the [Developer Quickstart](../developers/quickstart.md) to begin building.
-
----
-
-**Next:** [Network Map](network-map.md)

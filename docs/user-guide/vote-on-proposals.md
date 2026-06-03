@@ -1,3 +1,8 @@
+---
+title: "Vote on Proposals"
+description: "Participate in governance by voting on proposals."
+---
+
 # Vote on Proposals
 
 **Validators vote on AI-generated proposals to approve or reject parameter changes. This guide explains the process.**
@@ -113,7 +118,3 @@ lalachaind tx gov vote <proposal-id> abstain \
 - **When to ABSTAIN:** You don't have enough information to make an informed decision
 
 The AI is a tool — it provides data-driven suggestions, but validators are the final decision-makers.
-
----
-
-**Next:** [Use the Dashboard](use-dashboard.md)

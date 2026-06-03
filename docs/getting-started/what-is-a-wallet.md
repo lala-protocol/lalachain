@@ -1,3 +1,8 @@
+---
+title: "What is a Wallet?"
+description: "Understand crypto wallets, how they work, and how to keep your keys safe."
+---
+
 # What is a Wallet?
 
 **A wallet is your personal key to the blockchain — it lets you own, send, and receive digital tokens.**
@@ -82,7 +87,3 @@ This gives you an address, public key, and (critically important) a 24-word seed
 2. **Write your seed phrase on paper** — not in a file, not in a screenshot, not in email
 3. **Use a hardware wallet for large amounts** — keeps your key offline
 4. **Verify addresses before sending** — blockchain transactions are irreversible
-
----
-
-**Next:** [What is a Transaction?](what-is-a-transaction.md)

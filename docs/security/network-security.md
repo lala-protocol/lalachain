@@ -1,3 +1,8 @@
+---
+title: "Network Security"
+description: "How LalaChain defends against network-level attacks."
+---
+
 # Network Security
 
 **How LalaChain protects against network-level attacks.**
@@ -93,7 +98,3 @@ LalaChain's security holds when:
 2. Network can deliver messages within reasonable time
 3. Cryptographic primitives (SHA-256, secp256k1, Ed25519) remain secure
 4. At least one honest node is connected to you
-
----
-
-**Next:** [AI Safety](ai-safety.md)

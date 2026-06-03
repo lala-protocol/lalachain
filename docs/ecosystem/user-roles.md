@@ -1,3 +1,8 @@
+---
+title: "User Roles"
+description: "Roles in the LalaChain ecosystem � users, validators, delegators, developers."
+---
+
 # User Roles
 
 **LalaChain has four primary participant roles, each contributing differently to the network's health and governance.**
@@ -139,7 +144,3 @@ The AI Advisor is not a "user" but a system component worth mentioning:
 - **Operates** deterministically — same inputs always produce same outputs
 
 It's a tool that serves the validator set, not an autonomous agent.
-
----
-
-**Next:** [Applications](applications.md)

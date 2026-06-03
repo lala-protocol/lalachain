@@ -1,3 +1,8 @@
+---
+title: "Wallet Safety"
+description: "Protect your keys, seed phrases, and wallet from compromise."
+---
+
 # Wallet Safety
 
 **Your wallet is your gateway to LalaChain. Protecting it is entirely your responsibility.**
@@ -64,7 +69,3 @@ Hardware wallets keep your private key offline — it never touches your compute
 - Use antivirus software
 - Don't install browser extensions from unknown sources
 - Use a dedicated device for large transactions
-
----
-
-**Next:** [Scam Prevention](scam-prevention.md)

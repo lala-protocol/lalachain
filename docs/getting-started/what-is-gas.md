@@ -1,3 +1,8 @@
+---
+title: "What is Gas?"
+description: "Why gas fees exist and how they work on LalaChain."
+---
+
 # What is Gas?
 
 **Gas is a unit measuring computational effort. Every transaction costs gas, and you pay for gas with LALA tokens.**
@@ -94,7 +99,3 @@ These proposals require validator approval before taking effect.
 - **Use wallet defaults** — most wallets auto-estimate gas correctly
 - **Busy networks cost more** — if fees seem high, wait for less congested times
 - **On LalaChain, fees self-correct** — the AI ensures fees don't stay unreasonable for long
-
----
-
-**Next:** [What is an Epoch?](what-is-an-epoch.md)

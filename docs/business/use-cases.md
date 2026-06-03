@@ -1,3 +1,8 @@
+---
+title: "Use Cases"
+description: "Real-world business applications for LalaChain."
+---
+
 # Use Cases
 
 **Real-world scenarios where LalaChain's self-optimizing governance provides unique advantages.**
@@ -111,7 +116,3 @@ A government wants to issue verifiable digital credentials (driver's licenses, d
 | Government | Audit trail | Transparent AI governance |
 | NFT marketplace | Variable demand | Dynamic gas limits |
 | IoT data | High throughput, low cost | Self-optimizing parameters |
-
----
-
-**Next:** [Integration Guide](integration-guide.md)

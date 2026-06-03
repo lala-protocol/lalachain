@@ -1,3 +1,8 @@
+---
+title: "Validator Setup Guide"
+description: "Complete guide to setting up a LalaChain validator node."
+---
+
 # Validator Setup Guide
 
 **Step-by-step guide to setting up a LalaChain validator node.**
@@ -141,7 +146,3 @@ sudo systemctl start lalachaind
 ## Step 9: Configure Monitoring
 
 See [Monitoring](monitoring.md) for Prometheus + Grafana setup.
-
----
-
-**Next:** [Key Management](key-management.md)

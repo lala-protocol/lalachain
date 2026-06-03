@@ -1,3 +1,8 @@
+---
+title: "Voting Guide"
+description: "How to vote on governance proposals as a validator or delegator."
+---
+
 # Voting Guide
 
 **How to evaluate and vote on LalaChain governance proposals.**
@@ -70,7 +75,3 @@ For a vote to be valid:
 Example with 100M total staked:
 - Quorum requires 66M in voting power to participate
 - If 70M participates: 51% of (YES + NO) must be YES
-
----
-
-**Next:** [Parameter Changes](parameter-changes.md)

@@ -1,3 +1,8 @@
+---
+title: "Cost Analysis"
+description: "Transaction costs, infrastructure pricing, and ROI analysis."
+---
+
 # Cost Analysis
 
 **Understanding the costs of using and operating on LalaChain.**
@@ -84,7 +89,3 @@ At 67% staking ratio with 13% inflation:
 | **Total operational savings** | | **~$450K/year** |
 
 *Estimates based on mid-market enterprise with dedicated blockchain infrastructure team.*
-
----
-
-**Next:** [Security & Compliance](security-compliance.md)
